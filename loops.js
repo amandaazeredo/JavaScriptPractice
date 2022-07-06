@@ -37,3 +37,8 @@ for(let i=0; i<=5; i++){
  for(let indice  in cores) {
     console.log(indice,cores[indice]);
  }
+
+ //For..of
+ for(let cor of cores){
+   console.log(cor);
+ }
